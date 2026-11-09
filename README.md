@@ -1,7 +1,8 @@
 # Jobfinder-platform-ts
+
 Full stack app that allow users to apply for a job.
 
-# Mongodb insert date in mongosh
+## Mongodb insert date in mongosh
 
 ```js
 db.collection.updateMany({}, { $currentDate: { createdAt: true } });
@@ -15,8 +16,12 @@ db.collection.updateMany({}, { $currentDate: { createdAt: true } });
 
 **sharp is a high performance Node.js image processing module that uses the libvips library. It is typically 4x faster than ImageMagick and GraphicsMagick.**
 
-_$ npm install sharp_
+$ npm install sharp
 
+from Zero to Authenticate in 10 minutes
 
-# Zero to Authenticate in 10 minutes
 [go to clerk website](https://clerk.com/)
+
+### License
+
+This project is licensed under the MIT License.
